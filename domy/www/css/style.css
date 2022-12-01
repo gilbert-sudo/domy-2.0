@@ -1,0 +1,112 @@
+
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+      @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      body {
+        background-color: #12232e;
+      }
+
+      .container {
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+      }
+
+      p {
+        margin: 0px;
+      }
+
+      .heading {
+        cursor: pointer;
+      }
+
+      .callback {
+        padding: 30px;
+        background: #007cc7;
+        color: white;
+      }
+
+      .callback .fas.fa-headphones {
+        font-size: 30px;
+        color: #ffdf6c;
+        padding-bottom: 10px;
+      }
+
+      .callback .h-1 {
+        font-size: 28px;
+        font-weight: 500;
+      }
+
+      .callback .p-1 {
+        font-size: 10px;
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      .callback .btn.btn-primary {
+        font-size: 12px;
+        background: #2845ba;
+        border-radius: 0px;
+        width: 130px;
+        height: 50px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .callback .btn.btn-primary:hover {
+        background-color: #3f59c0;
+      }
+
+      .callback .form-control {
+        width: 200px;
+        height: 50px;
+        box-shadow: none;
+      }
+
+      ::placeholder {
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      @media (max-width: 500px) {
+        body {
+          padding: 20px 0;
+        }
+
+        .callback .form-control {
+          width: 100%;
+          height: 50px;
+          margin-bottom: 15px;
+        }
+
+        .callback .btn.btn-primary {
+          width: 100%;
+        }
+      }
